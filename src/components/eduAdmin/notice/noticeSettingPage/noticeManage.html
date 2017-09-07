@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用于跳转</title>
+</head>
+<body>
+<script>
+  var thisURL = document.URL;
+  var result =thisURL.split("?")[1];
+  location.href='#/notice/noticeManage?'+result;
+//  location.href='http://www.baidu.com';
+</script>
+</body>
+</html>
